@@ -5,8 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    color: #fff;
+    color: #C9E1E8;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,61 +16,35 @@ body {
     justify-content: center;
     background-color: black;
 }
+
 .greetings {
-    font-size: 8rem;
-    font-weight: 900;
+    font-size: 7.5rem;
+    font-weight: 800;
+    font-style: italic;
 }
 .greetings > span {
-    animation: glow 5s ease-in-out infinite;
-}
-@keyframes glow {
-    0%, 100% {
-        color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
-    }
-    10%, 90% {
-        color: #111;
-        text-shadow: none;
-    }
-}
-.greetings > span:nth-child(2) {
-    animation-delay: .2s;
-}
-.greetings > span:nth-child(3) {
-    animation-delay: .4s;
-}
-.greetings > span:nth-child(4) {
-    animation-delay: .6s;
-}
-.greetings > span:nth-child(5) {
-    animation-delay: .8s;
-}
-.greetings > span:nth-child(6) {
-    animation-delay: 1s;
-}
-.greetings > span:nth-child(7) {
-    animation-delay: 1.2s;
-}
-.greetings > span:nth-child(8) {
-    animation-delay: 1.4s;
+    color: #f0fff0ba;
+    text-shadow: 0 0 12px #e7d1ff, 0 0 25px #e7d1ff, 0 0 50px #e7d1ff;
 }
 .description {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-size: 50pt;
 }
+
 .button1 {
-    border: 1px solid #aaf0d1;
+    border: 1px solid #C9E1E8;
     color: white;
-    padding: 4px 8px;
+    padding: 8px 8px;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
     margin: 1px 1px;
     transition-duration: 0.4s;
-    background-color: transparent; /* Inizialmente trasparente */
+    background-color: transparent; /* Initially transparent */
 }
 .button1:hover {
-    background-color: #aaf0d1;
+    background-color: #C9E1E8;
     color: black;
 }
 @media screen and (max-width: 574px) {
